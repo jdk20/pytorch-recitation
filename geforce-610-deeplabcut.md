@@ -9,7 +9,7 @@ sudo apt install cuda
 echo 'export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}' >> ~/.bashrc 
 exit
 ```
-
+- Install a modfied CUDNN 5.1 to work on cards with compute capability < 3.0
 - Install Python 3.6, Tensorflow 1.0, and DeepLabCut
 ```
 conda create --name tf python=3.6
